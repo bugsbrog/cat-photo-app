@@ -1,0 +1,20 @@
+img.dog {
+    width: 300px;
+    height: 300px;
+}
+
+img.person {
+    width: 300px;
+    height: 300px;  
+}
+
+img.vacuum {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}

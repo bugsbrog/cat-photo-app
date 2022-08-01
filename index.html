@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dog Photo App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>DogPhotoApp</h1>
+        <main>
+            <section>
+        <h2>Dog Photos</h2>
+        <p>Click here to find more cute <a target="_blank" href="https://unsplash.com/s/photos/dogs">dog photos</a></p>
+        <img class="dog" src="/images/dog.jpg" alt="A cute dog."></a>
+        </section>
+        <section>
+        <h2>Dog Lists</h2>
+        <h3>What dogs love:</h3>
+        <ul>
+          <li>toys</li>
+          <li>people</li>
+          <li>sleeping</li>
+        </ul>
+        <figure><img class="person" src="images/person-with-dog.jpg" alt="A person with a dog.">
+            <figcaption>Dogs <strong>love</strong> people.</figcaption>
+        </figure>
+        <h3>What dogs hate:</h3>
+        <ul>
+            <li>loud noises</li>
+            <li>vacuums</li>
+            <li>being ignored</li>
+        </ul>
+        <figure>
+            <img class="vacuum" src="images/vacuum.jpg" alt="vacuum-with-confetti">
+            <figcaption>Dogs <strong>hate</strong> vacuums.</figcaption>
+        </figure>
+        </section>
+        <section>
+            <h2>Dog Questions:</h2>
+            <form>
+                <!-- <input 
+                    type="text"
+                    name="photourl"
+                    placeholder="dog photo URL"
+                    required> -->
+                    <h4>Is your dog an indoor or outdoor pet?</h4>
+                    <input type="radio" name="indoor" value="indoor">Indoor
+                    <input type="radio" name="indoor" value="outdoor">Outdoor
+                        <h4>Dog's Personality:</h4>
+                        <input type="checkbox" name="personality" value="friendly">Friendly
+                        <input type="checkbox" name="personality" value="affectionate">Affectionate
+                        <input type="checkbox" name="personality" value="playful">Playful
+                        <input type="checkbox" name="personality" value="energetic">Energetic
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    </body>
+</html>
